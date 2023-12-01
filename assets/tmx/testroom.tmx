@@ -3,23 +3,17 @@
  <properties>
   <property name="AmbientLight" value="255 255 255"/>
  </properties>
- <tileset firstgid="1" name="z_0" tilewidth="16" tileheight="16" tilecount="2048" columns="32">
-  <image source="spring_st_tilesheet.png" width="512" height="1024"/>
- </tileset>
- <tileset firstgid="2049" name="z_1" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
-  <image source="spring_outdoorsTileSheet.png" width="400" height="1264"/>
- </tileset>
- <tileset firstgid="4024" name="z2" tilewidth="16" tileheight="16" tilecount="2048" columns="32">
-  <image source="fall_seasonal_nm_tilesheet.png" width="512" height="1024"/>
+ <tileset firstgid="1" name="A0" tilewidth="16" tileheight="16" tilecount="2048" columns="32">
+  <image source="spring_sc_tilesheet.png" width="512" height="1024"/>
  </tileset>
  <layer id="7" name="Back" width="125" height="125">
   <data encoding="base64" compression="zlib">
-   eJzt0cFNAmEUhdHHaAMzWAFagVCBWIlQAVIJWolSEViBWoB3MytnDRk4J7mLt/nzJ18VAAAAcIm+26qf7Lcdvnub3K/Ztv3/BuPSdVXT7K4bvnu7tH7L3jUfvce0nWeLbvjufaT1Z7bXHGD0DpOqY/Y1OfdPOJWmqbrJbptz/4RTmaX1ffag+dV4Sutl9qz51XhJ61W21hwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC4QH+Y6BOB
+   eJzt0UEJAAAIADHtn9ImJvAt6AaX4Cojaoibpt+e3+X5P57/4zkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA2xoSIR7n
   </data>
  </layer>
  <layer id="9" name="Buildings" width="125" height="125">
   <data encoding="base64" compression="zlib">
-   eJzt1D1KwwAcxuGkUSmoF/CTgnoBPxcVnf1c1BMIbt7A4ubiUTyKd9CT+NJmKMVuRWnyPPDjP2QJvCRFAQAwVHaLopOqNJfm00J3+Gwxdyktd//3HZmuley5mtbSetpIm/XGW7nbacfmjbKbPffSfjpIh+mo3vg49ySd2rxRLrLnZbpK1+km3dYb3+Xep4dfNn8v//Y9ma7HkU2fxvZ9nvCNf9h8pr2M7Po6tvHbhM0/bQ4AMBPKqujXl5b47hT9qhpcWuKr3trm7dGr/+09//bWOMvm59XgAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQOP9AGvZEwM=
+   eJztzjERACAMALH6t4MTcAIGWLpggN5Bsvz6EacW/KJnR+kFN83sKr0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOBFGxpLBD4=
   </data>
  </layer>
  <layer id="15" name="Paths" width="125" height="125">
@@ -29,7 +23,7 @@
  </layer>
  <layer id="17" name="Front" width="125" height="125">
   <data encoding="base64" compression="zlib">
-   eJzt0UERADAIwDBwg5RJwb8CXLAHiYLeNQIAAICrKn8XsO15fk57DgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsGaaCANw=
+   eJztwTEBAAAAwqD1T20IX6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgM/QkAAE=
   </data>
  </layer>
  <layer id="19" name="AlwaysFront" width="125" height="125">

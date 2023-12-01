@@ -31,9 +31,11 @@
     <Content Include="assets\MapData.json" />
     <Content Include="assets\png\fall_sc_tilesheet.png" />
     <Content Include="assets\png\internal_doors_recolor.png" />
+    <Content Include="assets\png\sc_dinamic_crops.png" />
     <Content Include="assets\png\spring_sc_tilesheet.png" />
     <Content Include="assets\png\summer_sc_tilesheet.png" />
     <Content Include="assets\png\winter_sc_tilesheet.png" />
+    <Content Include="assets\png\world_map.png" />
     <Content Include="assets\tmx\DragonStones.tmx" />
     <Content Include="assets\tmx\GrandPlain.tmx" />
     <Content Include="assets\tmx\TransportArea.tmx" />

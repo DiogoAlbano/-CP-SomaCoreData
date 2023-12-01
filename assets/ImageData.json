@@ -7,6 +7,12 @@
       "FromFile": "assets/png/{{TargetWithoutPath}}.png"
     },
     {
+      "Logname": "Load_dinamic_tilesheets",
+      "Action": "Load",
+      "Target": "Maps/sc_dinamic_crops",
+      "FromFile": "assets/png/{{TargetWithoutPath}}.png"
+    },
+    {
       "Logname": "Edit_Color_Wood_Door_Movement",
       "Action": "EditImage",
       "Target": "LooseSprites/Cursors",
@@ -89,17 +95,25 @@
       "When": {
         "HasMod": "somaraezel.NovoMundoChapter1"
       }
-    }//,
-    //{
-      //"Logname": "Set_Sit_Tiles",
-      //"Action": "EditData",
-      //"Target": "Data/ChairTiles",
-      //"Entries": {
-        //"__stuff/14/16": "1/1/down/chair/-1/-1/false",
-        //"__stuff/18/16": "1/1/right/chair/-1/-1/false",
-        //"__stuff/22/16": "1/1/left/chair/-1/-1/false"
-      //}
-    //}
+    },
+    {
+      "Logname": "Set_Sit_Tiles",
+      "Action": "EditData",
+      "Target": "Data/ChairTiles",
+      "Entries": {
+        "spring_sc_tilesheet/14/45": "1/1/down/chair/-1/-1/false",
+        "spring_sc_tilesheet/18/45": "1/1/right/chair/-1/-1/false",
+        "spring_sc_tilesheet/22/45": "1/1/left/chair/-1/-1/false",
+        "summer_sc_tilesheet/14/45": "1/1/down/chair/-1/-1/false",
+        "summer_sc_tilesheet/18/45": "1/1/right/chair/-1/-1/false",
+        "summer_sc_tilesheet/22/45": "1/1/left/chair/-1/-1/false",
+        "fall_sc_tilesheet/14/45": "1/1/down/chair/-1/-1/false",
+        "fall_sc_tilesheet/18/45": "1/1/right/chair/-1/-1/false",
+        "fall_sc_tilesheet/22/45": "1/1/left/chair/-1/-1/false",
+        "winter_sc_tilesheet/14/45": "1/1/down/chair/-1/-1/false",
+        "winter_sc_tilesheet/18/45": "1/1/right/chair/-1/-1/false",
+        "winter_sc_tilesheet/22/45": "1/1/left/chair/-1/-1/false"
+      }
+    }
   ]
-
 }

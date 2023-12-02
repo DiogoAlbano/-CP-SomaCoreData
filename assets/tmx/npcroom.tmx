@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="18" height="18" tilewidth="16" tileheight="16" infinite="0" nextlayerid="40" nextobjectid="295">
- <tileset firstgid="1" name="1" tilewidth="16" tileheight="16" tilecount="3936" columns="32">
-  <image source="__stuff.png" width="512" height="1976"/>
- </tileset>
- <tileset firstgid="3937" name="2" tilewidth="16" tileheight="16" tilecount="3936" columns="32">
-  <image source="__vanilla_stuff.png" width="512" height="1976"/>
- </tileset>
- <tileset firstgid="7873" name="3" tilewidth="16" tileheight="16" tilecount="2048" columns="32">
-  <image source="spring_seasonal_nm_tilesheet.png" width="512" height="1024"/>
+ <tileset firstgid="1" name="A0" tilewidth="16" tileheight="16" tilecount="2048" columns="32">
+  <image source="spring_sc_tilesheet.png" width="512" height="1024"/>
  </tileset>
  <layer id="1" name="Back" width="18" height="18">
   <data encoding="base64" compression="zlib">
-   eJzt0c0NgmAQhOGvlG0IAfsQwT5ApQTuINIH8tMHIlTguyVswokwyZNJ5rCXdW6bFOKchxN8BAhxNu5654IIV8RIcDPumpTOcMcDT+Ri2zUlXeGFGm80Yts1Lf1Bhx4DRrHtmon+YsYPC1ax7Zot/qU5/nX8ay//+gPI0NQ6
+   eJzt0TcVgDAAANE8UED1QfVB9UH1QfVJnTkJJHOGv9x6hyHEiQs3Hrw4JLtlCmHDgQsPvinfA4SIECNBqtAz5ChQokKt0Bu06NBjwKjQJ8xYsGLDrtBlv+hf+pf+9b9/wWePBQ==
   </data>
  </layer>
  <layer id="3" name="Back2" width="18" height="18">
@@ -46,7 +40,7 @@
  </layer>
  <layer id="9" name="Buildings" width="18" height="18">
   <data encoding="base64" compression="zlib">
-   eJxLYmRgSKIQJwMxNUAzFc1ppIJZo+aMmjNqztAwZyEQL6IQLwZiAOq2Ico=
+   eJxLY2BgSKMQOzNQB7hS0ZyzVDKHGm4aNWfUnFFzaGvOQQbKy7FFQAwAihMXaw==
   </data>
  </layer>
  <layer id="11" name="Buildings2" width="18" height="18">

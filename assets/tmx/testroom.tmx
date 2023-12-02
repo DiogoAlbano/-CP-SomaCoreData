@@ -10,6 +10,9 @@
   <image source="sc_dinamic_crops.png" width="96" height="32"/>
  </tileset>
  <layer id="7" name="Back" width="125" height="125">
+  <properties>
+   <property name="Outdoors" value="T"/>
+  </properties>
   <data encoding="base64" compression="zlib">
    eJzt0UkKgAAQA8FxH5f/v9f8QcSDVdD3QKr4u6GrxjSlOS1p7a9X8aYt/3ba05HOdPkcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAHbrq0AK8=
   </data>

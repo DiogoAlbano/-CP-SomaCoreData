@@ -9,7 +9,7 @@
     {
       "Logname": "Load_dinamic_tilesheets",
       "Action": "Load",
-      "Target": "Maps/sc_dinamic_crops",
+      "Target": "Maps/sc_dinamic_crops, Maps/sc_dinamic_decorations",
       "FromFile": "assets/png/{{TargetWithoutPath}}.png"
     },
     {

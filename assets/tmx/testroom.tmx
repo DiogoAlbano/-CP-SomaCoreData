@@ -3,23 +3,23 @@
  <properties>
   <property name="AmbientLight" value="255 255 255"/>
  </properties>
- <tileset firstgid="1" name="A0" tilewidth="16" tileheight="16" tilecount="2048" columns="32">
-  <image source="spring_sc_tilesheet.png" width="512" height="1024"/>
+ <tileset firstgid="1" name="teste" tilewidth="16" tileheight="16" tilecount="10000" columns="100">
+  <image source="spring_sc_tilesheet.png" width="1600" height="1600"/>
  </tileset>
- <tileset firstgid="2049" name="A1" tilewidth="16" tileheight="16" tilecount="768" columns="16">
-  <image source="sc_dinamic_crops.png" width="256" height="768"/>
+ <tileset firstgid="10001" name="teste2" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior.png" width="512" height="1088"/>
  </tileset>
  <layer id="7" name="Back" width="125" height="125">
   <properties>
    <property name="Outdoors" value="T"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJzt0UEJACAAwEDB/kksaQB/+pLdwRJsjNOa9/Enz3s87/G8x/Mez3s87/G8xccez3s87/G8x/Mez3s87/G8x/MevwEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADebLemct8=
+   eJzt1MVzVmcARnGCWwju7lDcbYMV1+LuDkmAQrEWJxR3lw1S3K24u7u7FylOS+lZ8BdkQQbmnJnf9n7vfZ+5X6RIZmZmZvatFYDIiIKoiIboiIGYiIXYiIO4CEQ8BCE+cvOAPMiLfMiPAiiIQiiMIiiKYiiOEiiJUmjIjzdCYzRBUzRDc7RAS7RCa7RBW7RDe3TAMA4+HCMQhpH4HaMwGmMwFuMwHhMwEZMwGat56TVYi3VYjw3YiE3YjC34E1uxDduxAztxjQu7jhu4iVu4jTu4i3u4jwd4iEd4jCd4ilhcdGzEQVwEIh6CEB8JkBCJkBhJkBTJkDxG+DZvi3Zojw7oiE7ojC7oim4IRghC0R090BMT2G0iJmEypmAqpmE6ZmAmZmE25mAu5mE+trHbduzATuzCbuzBXuzDfhzAQRzCYRzBUTxit8d4gqf4C8/wHC/wEn/jFV7jDd7iHd4jCfeeFMmQHCmQEqmQGmmQFumQHhmQEZmQGaX5QMqgLMqhPH5EBVREJVRGFVRFNVRHDdREV3brhmCEIBTd0QM98TN6oTd+QR/0RT/0D+fmh3AYR3AUx3AcJ3ASp3AaZ3AW53AeF3ARb9jtLd7hPT7gI/7Bv/iE//D5yx9KACIjCqIiA/eeEZmQGVmQFdmQHTmQEz8gF3IjD/IiH6rxrVVHDdRELdTGT6iDuqiH+miAhmiExmiCPuzWF/3QHwPwK37DQAzCYAzBUAzDcIxAGBaw20IswmL8gSVYimVYjhVYiVVYjTVYi3U4xW6ncQZncQ7ncQEXcQmXcQVXcQ3XcQM3w7m5mX3/1Y3oA9hXb3NEH8C+emkCIvoEZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZhHb/4V1rFo=
   </data>
  </layer>
  <layer id="9" name="Buildings" width="125" height="125">
   <data encoding="base64" compression="zlib">
-   eJzt1UtOAkEARdFGUFpEQUBQ/MAK0BWA+x+yFFZAJb4R807UOiep3NSsk5dONQ21Ol7ce+1Pr9J+Okiv05t02Hb6eXTgdHF/zIazdJ4u0qd0ma5sDn9Om//2Nh2ld+k4vfd//xvP2fIlXaev6Vv6bnMA+JUeyhs9KWfqra7GR9l6U87W5tXYla0/y/myeTX2ZetDOd82BwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoAJnmhAGTw==
+   eJztw7ENAAAEADBPO9Y3XjBYSJs0AgC4Lof5o5YCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAbGnQhRPV
   </data>
  </layer>
  <layer id="15" name="Paths" width="125" height="125">
@@ -29,7 +29,7 @@
  </layer>
  <layer id="17" name="Front" width="125" height="125">
   <data encoding="base64" compression="zlib">
-   eJztwTEBAAAAwqD1T20IX6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgM/QkAAE=
+   eJztwzENAAAIA7BZwL9ZLOzgIm3SBIBvpgwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcGUBLVEAqw==
   </data>
  </layer>
  <layer id="19" name="AlwaysFront" width="125" height="125">

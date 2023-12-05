@@ -13,87 +13,12 @@
       "FromFile": "assets/png/{{TargetWithoutPath}}.png"
     },
     {
-      "Logname": "Edit_Color_Wood_Door_Movement",
-      "Action": "EditImage",
-      "Target": "LooseSprites/Cursors",
-      "FromFile": "assets/png/internal_doors_recolor.png",
-      "FromArea": {
-        "X": 32,
-        "Y": 0,
-        "Width": 55,
-        "Height": 47
-      },
-      "ToArea": {
-        "X": 512,
-        "Y": 145,
-        "Width": 55,
-        "Height": 47
-      },
+      "Logname": "Load_SVE_compatibility_tilesheets",
+      "Action": "Load",
+      "Target": "Maps/spring_z_extras, Maps/summer_z_extras, Maps/fall_z_extras, Maps/winter_z_extras",
+      "FromFile": "assets/png/sc_SVE_ghost_tilesheet.png",
       "When": {
-        "HasMod": "somaraezel.NovoMundoChapter1"
-      }
-    },
-    {
-      "Logname": "Edit_Color_Wood_Hospital_Door_Movement",
-      "Action": "EditImage",
-      "Target": "LooseSprites/Cursors",
-      "FromFile": "assets/png/internal_doors_recolor.png",
-      "FromArea": {
-        "X": 96,
-        "Y": 0,
-        "Width": 55,
-        "Height": 47
-      },
-      "ToArea": {
-        "X": 576,
-        "Y": 145,
-        "Width": 55,
-        "Height": 47
-      },
-      "When": {
-        "HasMod": "somaraezel.NovoMundoChapter1"
-      }
-    },
-    {
-      "Logname": "Edit_Color_Wood_Door_Setter",
-      "Action": "EditImage",
-      "Target": "Maps/townInterior",
-      "FromFile": "assets/png/internal_doors_recolor.png",
-      "FromArea": {
-        "X": 16,
-        "Y": 13,
-        "Width": 16,
-        "Height": 35
-      },
-      "ToArea": {
-        "X": 384,
-        "Y": 29,
-        "Width": 16,
-        "Height": 35
-      },
-      "When": {
-        "HasMod": "somaraezel.NovoMundoChapter1"
-      }
-    },
-    {
-      "Logname": "Edit_Color_Wood_Hospital_Door_Setter",
-      "Action": "EditImage",
-      "Target": "Maps/townInterior",
-      "FromFile": "assets/png/internal_doors_recolor.png",
-      "FromArea": {
-        "X": 0,
-        "Y": 18,
-        "Width": 16,
-        "Height": 30
-      },
-      "ToArea": {
-        "X": 96,
-        "Y": 402,
-        "Width": 16,
-        "Height": 30
-      },
-      "When": {
-        "HasMod": "somaraezel.NovoMundoChapter1"
+        "HasMod |contains = FlashShifter.StardewValleyExpandedCP": false
       }
     },
     {
@@ -101,18 +26,18 @@
       "Action": "EditData",
       "Target": "Data/ChairTiles",
       "Entries": {
-        "spring_sc_tilesheet/14/45": "1/1/down/chair/-1/-1/false",
-        "spring_sc_tilesheet/18/45": "1/1/right/chair/-1/-1/false",
-        "spring_sc_tilesheet/22/45": "1/1/left/chair/-1/-1/false",
-        "summer_sc_tilesheet/14/45": "1/1/down/chair/-1/-1/false",
-        "summer_sc_tilesheet/18/45": "1/1/right/chair/-1/-1/false",
-        "summer_sc_tilesheet/22/45": "1/1/left/chair/-1/-1/false",
-        "fall_sc_tilesheet/14/45": "1/1/down/chair/-1/-1/false",
-        "fall_sc_tilesheet/18/45": "1/1/right/chair/-1/-1/false",
-        "fall_sc_tilesheet/22/45": "1/1/left/chair/-1/-1/false",
-        "winter_sc_tilesheet/14/45": "1/1/down/chair/-1/-1/false",
-        "winter_sc_tilesheet/18/45": "1/1/right/chair/-1/-1/false",
-        "winter_sc_tilesheet/22/45": "1/1/left/chair/-1/-1/false"
+        "spring_sc_tilesheet/20/15": "1/1/down/chair/-1/-1/false",
+        "spring_sc_tilesheet/24/15": "1/1/right/chair/-1/-1/false",
+        "spring_sc_tilesheet/28/15": "1/1/left/chair/-1/-1/false",
+        "summer_sc_tilesheet/20/15": "1/1/down/chair/-1/-1/false",
+        "summer_sc_tilesheet/24/15": "1/1/right/chair/-1/-1/false",
+        "summer_sc_tilesheet/28/15": "1/1/left/chair/-1/-1/false",
+        "fall_sc_tilesheet/20/15": "1/1/down/chair/-1/-1/false",
+        "fall_sc_tilesheet/24/15": "1/1/right/chair/-1/-1/false",
+        "fall_sc_tilesheet/28/15": "1/1/left/chair/-1/-1/false",
+        "winter_sc_tilesheet/20/15": "1/1/down/chair/-1/-1/false",
+        "winter_sc_tilesheet/24/15": "1/1/right/chair/-1/-1/false",
+        "winter_sc_tilesheet/28/15": "1/1/left/chair/-1/-1/false"
       }
     }
   ]

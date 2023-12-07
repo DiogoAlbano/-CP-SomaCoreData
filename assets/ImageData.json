@@ -9,7 +9,7 @@
     {
       "Logname": "Load_dinamic_tilesheets",
       "Action": "Load",
-      "Target": "Maps/sc_dinamic_crops, Maps/sc_dinamic_decorations",
+      "Target": "Maps/sc_dinamic_plants, Maps/sc_dinamic_decorations",
       "FromFile": "assets/png/{{TargetWithoutPath}}.png"
     },
     {
@@ -26,18 +26,18 @@
       "Action": "EditData",
       "Target": "Data/ChairTiles",
       "Entries": {
-        "spring_sc_tilesheet/20/15": "1/1/down/chair/-1/-1/false",
-        "spring_sc_tilesheet/24/15": "1/1/right/chair/-1/-1/false",
-        "spring_sc_tilesheet/28/15": "1/1/left/chair/-1/-1/false",
-        "summer_sc_tilesheet/20/15": "1/1/down/chair/-1/-1/false",
-        "summer_sc_tilesheet/24/15": "1/1/right/chair/-1/-1/false",
-        "summer_sc_tilesheet/28/15": "1/1/left/chair/-1/-1/false",
-        "fall_sc_tilesheet/20/15": "1/1/down/chair/-1/-1/false",
-        "fall_sc_tilesheet/24/15": "1/1/right/chair/-1/-1/false",
-        "fall_sc_tilesheet/28/15": "1/1/left/chair/-1/-1/false",
-        "winter_sc_tilesheet/20/15": "1/1/down/chair/-1/-1/false",
-        "winter_sc_tilesheet/24/15": "1/1/right/chair/-1/-1/false",
-        "winter_sc_tilesheet/28/15": "1/1/left/chair/-1/-1/false"
+        "spring_sc_tilesheet/10/0": "1/1/down/chair/-1/-1/false",
+        "spring_sc_tilesheet/9/1": "1/1/right/chair/-1/-1/false",
+        "spring_sc_tilesheet/9/0": "1/1/left/chair/-1/-1/false",
+        "summer_sc_tilesheet/10/0": "1/1/down/chair/-1/-1/false",
+        "summer_sc_tilesheet/9/1": "1/1/right/chair/-1/-1/false",
+        "summer_sc_tilesheet/9/0": "1/1/left/chair/-1/-1/false",
+        "fall_sc_tilesheet/10/0": "1/1/down/chair/-1/-1/false",
+        "fall_sc_tilesheet/9/1": "1/1/right/chair/-1/-1/false",
+        "fall_sc_tilesheet/9/0": "1/1/left/chair/-1/-1/false",
+        "winter_sc_tilesheet/10/0": "1/1/down/chair/-1/-1/false",
+        "winter_sc_tilesheet/9/1": "1/1/right/chair/-1/-1/false",
+        "winter_sc_tilesheet/9/0": "1/1/left/chair/-1/-1/false"
       }
     }
   ]
